@@ -1,0 +1,19 @@
+{
+  "name": "geoip",
+  "version": "1.0.0",
+  "description": "Get the country name and country code based on the IP address.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Santhosh GL",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "geoip-lite": "^1.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
