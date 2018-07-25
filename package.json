@@ -4,7 +4,7 @@
   "description": "Get the country name and country code based on the IP address.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon server.js"
   },
   "author": "Santhosh GL",
@@ -14,6 +14,11 @@
     "geoip-lite": "^1.3.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "request": "^2.87.0",
+    "should": "^13.2.1",
+    "util": "^0.11.0"
   }
 }
