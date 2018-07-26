@@ -3,6 +3,6 @@ const app = express();
 
 const geoIpRoutes = require('./routes/geoip');
 
-app.use('/geoip', geoIpRoutes);
+app.use('/v1/geoip', geoIpRoutes);
 
 module.exports = app;
